@@ -1,0 +1,14 @@
+<odoo>
+    <data noupdate="1">
+        <record id="ir_cron_migration" model="ir.cron">
+            <field name="name">Run Migration Script</field>
+            <field name="model_id" ref="busenco_migrate.model_custom_migration"/> <!-- Ensure this matches your model -->
+            <field name="state">code</field>
+            <field name="code">model.run_migration()</field>
+            <field name="active">False</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">1</field>
+        </record>
+    </data>
+</odoo>

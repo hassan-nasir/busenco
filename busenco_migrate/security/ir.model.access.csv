@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_busenco_migrate_busenco_migrate,busenco_migrate.busenco_migrate,model_busenco_migrate_busenco_migrate,base.group_user,1,1,1,1
+access_custom_migration,access_custom_migration,model_custom_migration,,1,1,1,1
